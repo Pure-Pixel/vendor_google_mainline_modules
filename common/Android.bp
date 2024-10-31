@@ -47,7 +47,7 @@ android_app_import {
 	name: "NetworkStackGoogle",
 	owner: "google/mainline_modules",
 	apk: "proprietary/system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk",
-	overrides: ["NetworkStack", "NetworkStackNext"],
+	overrides: ["NetworkStack", "NetworkStackNext", "com.android.networkstack.tethering"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -458,7 +458,7 @@ prebuilt_apex {
     owner: "google",
     src: "proprietary/system/apex/com.google.android.tethering.apex",
     overrides: [
-        "com.android.tethering",
+        "com.android.tethering", "com.android.networkstack.tethering",
     ],
     exported_bootclasspath_fragments: ["com.android.tethering-bootclasspath-fragment"],
     exported_systemserverclasspath_fragments: ["com.android.tethering-systemserverclasspath-fragment"],
