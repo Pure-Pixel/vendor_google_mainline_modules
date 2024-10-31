@@ -5,6 +5,12 @@
 -product/etc/sysconfig/google-staged-installer-whitelist.xml
 
 # Prebuilt APEXes
+system/system/apex/com.android.apex.cts.shim.apex
+system/system/apex/com.android.i18n.apex
+system/system/apex/com.android.runtime.apex
+system/system/apex/com.google.android.nfcservices.apex
+system/system/apex/com.google.android.profiling.capex
+system/system/apex/com.google.android.tzdata6.apex
 system/system/apex/com.google.android.adbd.apex
 system/system/apex/com.google.android.adservices.apex
 system/system/apex/com.google.android.appsearch.apex
