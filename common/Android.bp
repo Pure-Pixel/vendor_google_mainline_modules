@@ -465,10 +465,10 @@ prebuilt_apex {
 
 // TimezoneDataPrebuilt
 prebuilt_apex {
-    name: "com.google.android.tzdata5",
+    name: "com.google.android.tzdata6",
     apex_name: "com.android.tzdata",
     owner: "google",
-    src: "proprietary/system/apex/com.google.android.tzdata5.apex",
+    src: "proprietary/system/apex/com.google.android.tzdata6.apex",
     overrides: [
         "com.android.tzdata",
     ],
