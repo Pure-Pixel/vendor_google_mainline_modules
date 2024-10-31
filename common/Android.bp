@@ -204,6 +204,7 @@ prebuilt_apex {
     overrides: [
         "CellBroadcast",
         "com.android.cellbroadcast",
+        "com.android.cellbroadcastservice",
     ],
 }
 
