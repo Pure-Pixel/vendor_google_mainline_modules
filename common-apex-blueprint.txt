@@ -329,6 +329,7 @@ prebuilt_apex {
         "framework-tethering.com.android.tethering",
     ],
     owner: "google",
+    certificate: "platform",
     src: "proprietary/system/apex/com.google.android.tethering.apex",
     overrides: [
         "com.android.tethering",
