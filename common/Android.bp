@@ -252,20 +252,6 @@ prebuilt_apex {
     exported_systemserverclasspath_fragments: ["com.android.devicelock-systemserverclasspath-fragment"],
 }
 
-// ExtServicesPrebuilt
-prebuilt_apex {
-    name: "com.google.android.extservices",
-    apex_name: "com.android.ext.services",
-    required: [
-        "com.android.ext.services",
-    ],
-    owner: "google",
-    src: "proprietary/system/apex/com.google.android.extservices.apex",
-    overrides: [
-        "com.android.ext.services",
-    ],
-}
-
 // HealthFitnessPrebuilt
 prebuilt_apex {
     name: "com.google.android.healthfitness",
