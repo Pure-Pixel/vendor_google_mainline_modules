@@ -1,4 +1,10 @@
 prebuilt_etc {
+    name: "privapp-permissions-purepixel-system.xml",
+    src: "privapp-permissions-purepixel-system.xml",
+    sub_dir: "permissions",
+}
+
+prebuilt_etc {
     name: "GoogleDocumentsUI_permissions.xml",
     src: "GoogleDocumentsUI_permissions.xml",
     sub_dir: "permissions",
