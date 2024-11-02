@@ -19,8 +19,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Component name that should be granted Notification Assistant access -->
-    <string name="config_defaultAssistantAccessComponent" translatable="false">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
+    <string name="config_defaultAssistantAccessComponent" translatable="false">com.google.android.extservices/android.ext.services.notification.Assistant</string>
     <!-- Package name of the required service extension package. -->
-    <string name="config_servicesExtensionPackage" translatable="false">com.google.android.ext.services</string>
+    <string name="config_servicesExtensionPackage" translatable="false">com.google.android.extservices</string>
 </resources>
 

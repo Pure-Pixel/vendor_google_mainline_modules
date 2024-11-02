@@ -255,11 +255,11 @@ prebuilt_apex {
 // ExtServicesPrebuilt
 prebuilt_apex {
     name: "com.google.android.extservices",
-    apex_name: "com.android.extservices",
+    apex_name: "com.android.ext.services",
     owner: "google",
     src: "proprietary/system/apex/com.google.android.extservices.apex",
     overrides: [
-        "com.android.extservices",
+        "com.android.ext.services",
     ],
 }
 
